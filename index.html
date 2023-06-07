@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+     <meta charset="utf-8"/>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+     <title>Loan Calculator</title>
+     <link  rel="stylesheet" href="css/style.css"/>
+
+  </head>
+  <body>
+    <div class="calculator">
+        
+        <h1>LOAN CALCULATOR</h1>   
+        
+    
+        <!-- Calculate function refer to app.js-->
+        <p>Amount (£) :
+            <input id="amount" type="number"
+            onchange="Calculate()">
+        </p>
+
+        <p>Interest Rate :
+            <input id="rate" type="number"
+            onchange="Calculate()">
+        </p>
+
+        <p>Payment Period (p.m):
+            <input id="months" type="number"
+            onchange="Calculate()">
+        </p>
+
+        <h2 id="total"></h2>
+        
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>

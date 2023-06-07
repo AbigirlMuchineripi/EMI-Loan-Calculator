@@ -1,0 +1,59 @@
+
+body {
+    
+    background-image: url('../images/loanoffers.jpg');
+    background-size: 135% ;
+    margin-left: 30px;
+    font-family:Georgia;
+    padding: 10px  5px 20px 3px;
+    position: static;    
+}
+
+
+h1  {
+    font-size: 20px;
+    position:sticky;
+    padding-top: 0.2px;
+    padding-left:-50px;
+    
+
+}
+h1  {
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: -55px;
+    padding-left: -5px;
+
+}
+
+p {
+    padding-right: 50px;
+    margin-left: -20px;
+
+
+}
+
+
+
+.calculator {
+    width: 400px;
+    height: 290px;
+    background-color: rgb(2, 47, 11);
+    position:absolute;
+    left: 40%;
+    top: 50%;
+    transform: translateX(-30%) translateY(-70%);
+    padding: 65px 10px 10px 200px;
+    border-radius: 60%;
+    color:rgb(253, 216, 7);
+
+}
+
+input{
+    padding: 2px;
+    width: 25%;
+    margin-top: 2px;
+    shape-margin: 20px;
+    
+}
