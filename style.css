@@ -1,59 +1,97 @@
 
 body {
     
-    background-image: url('../images/loanoffers.jpg');
-    background-size: 135% ;
-    margin-left: 30px;
-    font-family:Georgia;
-    padding: 10px  5px 20px 3px;
-    position: static;    
+   background-color: rgb(126, 4, 126);
+   background-size: 100%;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ 
 }
-
-
-h1  {
-    font-size: 20px;
-    position:sticky;
-    padding-top: 0.2px;
-    padding-left:-50px;
-    
-
+div{
+    box-shadow: 10px 10px 10px rgb(59, 8, 8);
 }
 h1  {
-    font-size: 30px;
-    margin-top: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    line-height: 2rem;
+
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-top: 10px;
     margin-bottom: 25px;
     margin-left: -55px;
-    padding-left: -5px;
-
+    /* Added overflow and text-overflow properties */
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+ 
 }
-
 p {
-    padding-right: 50px;
-    margin-left: -20px;
-
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-align: center;   
+  
 }
-
-
 
 .calculator {
-    width: 400px;
-    height: 290px;
-    background-color: rgb(2, 47, 11);
-    position:absolute;
-    left: 40%;
+    width: fit-content;    
+    height: auto;
+    max-width: 50%;
+    background-color: rgb(1, 29, 7);
+    position:relative;
+    left: 50%;
     top: 50%;
-    transform: translateX(-30%) translateY(-70%);
-    padding: 65px 10px 10px 200px;
-    border-radius: 60%;
+    transform: translateX(-20%) translateY(-50%);
+    padding: 15px; /*30px 10px 100px;*/
+    border-style:ridge;
+    border-color:  rgb(94, 95, 19) ;    
+    border-radius:7%;
     color:rgb(253, 216, 7);
+  
+    
 
 }
+
 
 input{
-    padding: 2px;
-    width: 25%;
-    margin-top: 2px;
-    shape-margin: 20px;
-    
+    padding: 5px;
+   width: 26%;
+    margin-top: 8px;
+    background-color: rgb(209, 250, 207);
+ 
 }
+#total{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color:rgb(167, 4, 167);
+    background-color: rgb(2, 47, 11);
+   
+    width: fit-content;
+    text-align: center;
+    margin-left:auto;
+margin-right:auto;
+   
+}
+/* Media Queries for responsiveness */
+
+@media only screen and (max-width: 700px) {
+    .calculator {
+        width: 80%;
+        left: 10%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .calculator {
+        width: 70%;
+        left: 15%;
+        top: 40%;
+    }
+}
+
