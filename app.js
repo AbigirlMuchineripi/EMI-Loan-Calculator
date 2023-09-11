@@ -1,4 +1,5 @@
 
+
 function Calculate(){
     //now extract values in amount, interest rate & months sections in variables
     const amount = document.querySelector("#amount").value;
