@@ -1,7 +1,7 @@
 
 body {
     
-   
+
 
    background-color:  rgb(163, 8, 163);
    background-size: 100%;
@@ -112,7 +112,7 @@ h3{
     padding-bottom: -15px;
 
 }
-a,.hover:hover{
+.hover:hover{
    
     font-size: 16px;
     font-weight: 700;
