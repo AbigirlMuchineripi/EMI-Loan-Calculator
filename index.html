@@ -1,15 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
      <meta charset="utf-8"/>
      <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-     <title>Loan Calculator</title>   
+     <title>Loan Calculator</title>
+     
+     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
      <link  rel="stylesheet" href="css/style.css"/>
-     <script src="app.js" defer></script>    
-  </head>     
+     <script src="app.js" defer></script>
+
+    
+  </head>
+     
      
   <body>
     <div class="container">
@@ -21,23 +26,33 @@
                      <div class="form-group">
                         <label for="amount">Amount (£) :</label>
                             <input id="amount" type="number" class="form-control"
-                            onchange="Calculate()">                       
+                            onchange="Calculate()">
+                       
                      </div> 
+
                      <div class="form-group">
                         <label for="rate">Interest Rate (%) :</label>
                         <input id="rate" type="number" class="form-control"
                         onchange="Calculate()">
+
                      </div>
+
                      <div class="form-group">
                         <label for="months"> Payment Period (m):</label>
                         <input  id="months" type="number" class="form-control"
                         onchange="Calculate()">
+
                      </div>
+
                      <h2 id="total">EMI</h2>
-            </div>           
+            </div>
+           
         </div>
         <h3 id="hover" class="hover">Designer/ Dev: <a href="https://twitter.com/AbbyMuchinexy">Abigirl Muchineripi</a></h3>
     </div>
  </div>
+
+
+
 </body>
 </html>
